@@ -12,13 +12,11 @@ This repository contains code and data to:
 ## Repository Structure
 
 ```
-your-repo-name/
-├── .gitignore
+stock_djia_sentiment/
 ├── README.md
 ├── requirements.txt
 ├── main.py
 ├── src/
-│   ├── __pycache__.py
 │   ├── data_loader.py
 │   ├── sentiment_extractor.py
 │   ├── feature_engineering.py
@@ -32,7 +30,6 @@ your-repo-name/
     └── xgb_djia_sentiment_model.joblib  # Trained XGBoost model
 ```
 
-- **`.gitignore`**: Lists files and folders for Git to ignore (e.g., virtual environment, OS‐generated files).
 - **`README.md`**: This file.
 - **`requirements.txt`**: All pip dependencies needed to run the code.
 - **`main.py`**: Entry point that
