@@ -188,7 +188,7 @@ EOF
 
 ## License
 
-*(Add your preferred license here)*
+*MIT License*
 
 ---
 
