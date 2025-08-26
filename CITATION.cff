@@ -1,37 +1,11 @@
 cff-version: 1.2.0
-message: >-
-  If you use this repository in your research or teaching, please cite it using
-  the metadata below.
-title: "DJIA News Sentiment: Next-Day Direction (FinBERT + XGBoost)"
-version: "1.0.0"
-date-released: "2025-08-26"
-type: software
+message: "If you use this software, please cite it as below."
 authors:
-  - family-names: Sharma
-    given-names: Raghav
-    orcid: "https://orcid.org/0009-0007-7440-3442"
-    affiliation: "Navrachana International School Vadodara"
-repository-code: "https://github.com/raghav-sharma-15/stock_djia_sentiment"
-license: MIT
-keywords:
-  - DJIA
-  - sentiment analysis
-  - FinBERT
-  - XGBoost
-  - finance
-  - machine learning
-  - time series
-abstract: >-
-  End-to-end pipeline that turns daily DJIA headlines into FinBERT sentiment
-  features, fuses them with technical indicators, and trains an XGBoost
-  classifier to predict next-day up/down movement; includes reproducible code,
-  backtest, and artifacts for demonstration.
-preferred-citation:
-  type: software
-  title: "DJIA News Sentiment: Next-Day Direction (FinBERT + XGBoost)"
-  year: 2025
-  url: "https://github.com/raghav-sharma-15/stock_djia_sentiment"
-  authors:
-    - family-names: Sharma
-      given-names: Raghav
-      orcid: "https://orcid.org/0009-0007-7440-3442"
+- family-names: "Sharma"
+  given-names: "Raghav"
+  orcid: "https://orcid.org/0009-0007-7440-3442"
+title: "stock_djia_sentiment"
+version: 1.0.0
+doi: 10.5281/zenodo.1234
+date-released: 2025-08-26
+url: "https://github.com/raghav-sharma-15/stock_djia_sentiment"
