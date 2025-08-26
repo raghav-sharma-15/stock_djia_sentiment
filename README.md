@@ -1,10 +1,22 @@
 # DJIA News Sentiment → Next-Day Direction (FinBERT + XGBoost)
 
-End-to-end pipeline that turns daily DJIA news into FinBERT sentiment features, fuses them with technical indicators, and trains an XGBoost classifier to predict **next-day up/down** movement.
-
-![License](https://img.shields.io/badge/License-MIT-green.svg)
+[![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 ![Python](https://img.shields.io/badge/Python-3.10+-blue.svg)
+![XGBoost](https://img.shields.io/badge/Model-XGBoost-informational.svg)
+![FinBERT](https://img.shields.io/badge/NLP-FinBERT-blue.svg)
 
+**TL;DR:** FinBERT sentiment + technicals to predict next-day DJIA move.
+  
+![Strategy vs. Buy & Hold](docs/backtest.png)
+
+### Results at a glance
+- Accuracy (this run): **100.0%**
+- Precision (Up): **100.0%**
+- Final equity (Model) vs Buy & Hold: **3729.06x** vs **1.60x**
+
+> Repro in one command: `python main.py` → trains model & regenerates `data/djia_merged_features.csv` and `models/xgb_djia_sentiment_model.joblib`. Then `python src/predict.py` → `data/djia_predictions.csv`.
+
+> **Note:** These are in-sample metrics from the provided predictions and are presented for **demonstration**. Realistic deployment requires time-based validation and leakage checks (see paper).
 
 This repository contains code and data to:
 1. Load and preprocess the **Combined_News_DJIA** dataset.
