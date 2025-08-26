@@ -4,6 +4,7 @@
 ![Python](https://img.shields.io/badge/Python-3.10+-blue.svg)
 ![XGBoost](https://img.shields.io/badge/Model-XGBoost-informational.svg)
 ![FinBERT](https://img.shields.io/badge/NLP-FinBERT-blue.svg)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.16948970.svg)](https://doi.org/10.5281/zenodo.16948970)
 
 **TL;DR:** FinBERT sentiment + technicals to predict next-day DJIA move.
   
