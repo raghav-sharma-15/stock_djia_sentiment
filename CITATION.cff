@@ -6,6 +6,6 @@ authors:
   orcid: "https://orcid.org/0009-0007-7440-3442"
 title: "stock_djia_sentiment"
 version: 1.0.0
-doi: 10.5281/zenodo.1234
+doi: "10.5281/zenodo.16948970"
 date-released: 2025-08-26
 url: "https://github.com/raghav-sharma-15/stock_djia_sentiment"
