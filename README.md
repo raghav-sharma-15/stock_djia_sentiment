@@ -114,6 +114,31 @@ stock_djia_sentiment/
    python src/predict.py      --model_path models/xgb_djia_sentiment_model.joblib      --features_csv data/djia_merged_features.csv      --output_csv data/djia_predictions.csv
    ```
 
+## 🔎 What’s novel / why this matters
+- **Unified pipeline**: from raw headlines → FinBERT sentiment → merged features → trained model → predictions.
+- **Time-series-aware training** with XGBoost (no leakage).
+- **Simple backtest** comparing model strategy vs. buy-and-hold.
+
+## 📊 Results (single-run snapshot)
+| Metric | Value |
+|---|---|
+| Accuracy | 0.XX |
+| Precision (Up) | 0.XX |
+| Recall (Up) | 0.XX |
+| F1 (Up) | 0.XX |
+
+> Reproduce via: `python - <<'EOF'` evaluation snippet in README.
+
+**Cumulative return comparison:**
+
+<p align="center">
+  <img src="figs/strategy_vs_bh.png" width="600" alt="Strategy vs. Buy & Hold">
+</p>
+
+## 🚀 Quickstart (2 commands)
+```bash
+pip install -r requirements.txt
+python main.py   # regenerates features + trains model (models/xgb_djia_sentiment_model.joblib)
 ---
 
 ## Quick Eval
