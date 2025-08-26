@@ -1,4 +1,10 @@
-# Stock Sentiment + DJIA Prediction Pipeline
+# DJIA News Sentiment → Next-Day Direction (FinBERT + XGBoost)
+
+End-to-end pipeline that turns daily DJIA news into FinBERT sentiment features, fuses them with technical indicators, and trains an XGBoost classifier to predict **next-day up/down** movement.
+
+![License](https://img.shields.io/badge/License-MIT-green.svg)
+![Python](https://img.shields.io/badge/Python-3.10+-blue.svg)
+
 
 This repository contains code and data to:
 1. Load and preprocess the **Combined_News_DJIA** dataset.
