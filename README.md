@@ -13,6 +13,8 @@
 - Accuracy (this run): **100.0%**
 - Precision (Up): **100.0%**
 - Final equity (Model) vs Buy & Hold: **3729.06x** vs **1.60x**
+*Footnote:* Metrics above are **in-sample** from the provided predictions and may be optimistic due to potential look-ahead/leakage; robust evaluation requires strictly **time-ordered splits** and **walk-forward validation** (as discussed in the paper).
+
 
 > Repro in one command: `python main.py` → trains model & regenerates `data/djia_merged_features.csv` and `models/xgb_djia_sentiment_model.joblib`. Then `python src/predict.py` → `data/djia_predictions.csv`.
 
