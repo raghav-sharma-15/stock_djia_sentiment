@@ -119,21 +119,7 @@ stock_djia_sentiment/
 - **Time-series-aware training** with XGBoost (no leakage).
 - **Simple backtest** comparing model strategy vs. buy-and-hold.
 
-## 📊 Results (single-run snapshot)
-| Metric | Value |
-|---|---|
-| Accuracy | 0.XX |
-| Precision (Up) | 0.XX |
-| Recall (Up) | 0.XX |
-| F1 (Up) | 0.XX |
-
 > Reproduce via: `python - <<'EOF'` evaluation snippet in README.
-
-**Cumulative return comparison:**
-
-<p align="center">
-  <img src="figs/strategy_vs_bh.png" width="600" alt="Strategy vs. Buy & Hold">
-</p>
 
 ## 🚀 Quickstart (2 commands)
 ```bash
